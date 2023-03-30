@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Assignment 1</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="signup-vector">
+        <img src="signup_vector.jpg" alt="Vector" />
+      </div>
+      <div class="signup-page">
+        <div class="signup-page-main">
+          <h1 id="signup-title">Sign up</h1>
+          <span class="sign-up-tagline"
+            >Join the club, sign up now!</span
+          >
+
+          <div class="extra-margin input-fields">
+            <label class="input-fields-label">Name</label>
+            <br />
+            <input
+              type="text"
+              class="input-fields-input"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="input-fields">
+            <label class="input-fields-label">Email</label>
+            <br />
+            <input
+              type="email"
+              class="input-fields-input"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="input-fields">
+            <label class="input-fields-label">Password</label>
+            <br />
+            <input
+              type="password"
+              class="input-fields-input"
+              placeholder="Enter your password"
+              required
+            />
+            <br />
+          </div>
+
+          <button class="create-account-btn" onclick="change_text();">
+            Create account
+          </button>
+
+          <div class="signup-google">
+            <img src="google.jpg" alt="google icon" />
+            <span>Sign up with Google</span>
+          </div>
+
+          <div class="login-div">
+            <span
+              >Already have an account?
+              <a href="#"><span class="login-link"> Log in</span></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" type="text/javascript"></script>
+</html>
